@@ -8,16 +8,6 @@
 * - Grid layout????
 */
 
-/*SAMPLE MEDIA QUERY for breakpoints:*/
-/*
-@media screen and (max-width: 500px) {
-	body {
-		background-color: green;
-	}
-}
-*/
-/* Creates green background when the width is smaller or equal to 500px */
-
 /*SAMPLE Flexbox applied: */
 /*
 header {
@@ -322,4 +312,10 @@ nav h1 a {
 	body {
 		background-color: red;
 	}
+
+	#restaurants-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 }
