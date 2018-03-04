@@ -8,6 +8,17 @@
 * - Grid layout????
 */
 
+/*SAMPLE MEDIA QUERY:
+@media screen and (max-width: 500px) {
+	body {
+		background-color: green;
+	}
+}
+*/
+/* Creates green background when the width is smaller or equal to 500px */
+
+
+
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
