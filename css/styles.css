@@ -8,7 +8,8 @@
 * - Grid layout????
 */
 
-/*SAMPLE MEDIA QUERY:
+/*SAMPLE MEDIA QUERY for breakpoints:*/
+/*
 @media screen and (max-width: 500px) {
 	body {
 		background-color: green;
