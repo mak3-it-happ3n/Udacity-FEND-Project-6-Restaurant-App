@@ -18,6 +18,14 @@
 */
 /* Creates green background when the width is smaller or equal to 500px */
 
+/*SAMPLE Flexbox applied: */
+/*
+header {
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+*/
 
 
 body,td,th,p{
