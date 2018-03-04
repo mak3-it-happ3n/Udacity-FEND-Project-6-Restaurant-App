@@ -300,3 +300,26 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* ====================== Breakpoints ====================== */
+
+/*normal mobile screen*/
+@media screen and (max-width: 380px) {
+	body {
+		background-color: green;
+	}
+}
+
+/*large mobile & normal tablet screen*/
+@media screen and (min-width: 381px) and (max-width: 770px) {
+	body {
+		background-color: blue;
+	}
+}
+
+/*large tablet & desktop screen*/
+@media screen and (min-width: 771px) {
+	body {
+		background-color: red;
+	}
+}
