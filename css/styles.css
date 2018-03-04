@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Own TODO RESPONSIVE DESIGN:
+* - create 3 breakpoints: 1) Mobile & smaller, 2)Tablet, 3) Desktop
+* - Rearrange Images: display tiles next to each other (flexbox & wrapping)
+* - Adjust Images and use different sizes and resolutions (extra Udactiy course)
+* - Grid layout????
+*/
+
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
