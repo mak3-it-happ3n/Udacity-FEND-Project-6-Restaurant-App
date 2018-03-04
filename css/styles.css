@@ -298,12 +298,23 @@ nav h1 a {
 	body {
 		background-color: green;
 	}
+
+	/*resize buttons & font size*/
+	#neighborhoods-select, #cuisines-select {
+		font-size: 0.94em;
+		max-width: 40%;
+	}
 }
 
 /*large mobile & normal tablet screen*/
 @media screen and (min-width: 381px) and (max-width: 770px) {
 	body {
 		background-color: blue;
+	}
+
+	/*resize buttons*/
+	#neighborhoods-select, #cuisines-select {
+		max-width: 40%;
 	}
 }
 
@@ -317,5 +328,4 @@ nav h1 a {
 		display: flex;
 		flex-wrap: wrap;
 	}
-
 }
