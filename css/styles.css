@@ -295,6 +295,7 @@ nav h1 a {
 
 /*normal mobile screen*/
 @media screen and (max-width: 380px) {
+	/*only for testing*/
 	body {
 		background-color: green;
 	}
@@ -308,6 +309,7 @@ nav h1 a {
 
 /*large mobile & normal tablet screen*/
 @media screen and (min-width: 381px) and (max-width: 770px) {
+	/*only for testing*/
 	body {
 		background-color: blue;
 	}
@@ -320,6 +322,7 @@ nav h1 a {
 
 /*large tablet & desktop screen*/
 @media screen and (min-width: 771px) {
+	/*only for testing*/
 	body {
 		background-color: red;
 	}
