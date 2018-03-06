@@ -8,6 +8,14 @@
 * - Display tile(s) as second element
 * - Display each review on full-width as third element
 * - display footer on full width
+* - ALL POTENTIALLY SOLVED!
+*/
+
+/* TODO: a11y:
+* - include descriptive alt-attributes for all images
+* - add screen-reader-only attributes where appropriate to add useful additional text (maybe for maps?)
+* - use semantic markup whee possible
+* - use aria attributes when semantic markup is not feasable
 */
 
 body,td,th,p{
