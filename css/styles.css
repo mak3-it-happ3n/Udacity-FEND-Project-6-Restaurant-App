@@ -301,6 +301,31 @@ nav h1 a {
 		max-width: 40%;
 	}
 
+/* pontential solution for detail page! if it works, expand to tablet view! */
+	#maincontent {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#map-container {
+		width: 100%;
+		order: 1;
+	}
+
+	#restaurant-container {
+		width: 100%;
+		order: 2;
+	}
+
+	#rviews-container {
+		width: 100%;
+	}
+
+	#footer {
+		width: 100%;
+	}
+
 	nav h1 a {
 		font-size: 1.2em;
 	}
