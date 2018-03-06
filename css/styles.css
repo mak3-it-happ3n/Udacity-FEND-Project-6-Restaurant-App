@@ -218,6 +218,8 @@ nav h1 a {
   top: 80px;
   width: 50%;
 }
+/*maybe remove .inside? */
+
 .inside #map {
   background-color: #ccc;
   height: 100%;
@@ -300,7 +302,7 @@ nav h1 a {
 /*normal mobile screen*/
 @media screen and (max-width: 380px) {
 	/*only for testing*/
-	body {
+	body.inside {
 		background-color: green;
 	}
 	/*resize buttons & font size*/
@@ -310,32 +312,34 @@ nav h1 a {
 	}
 
 /* pontential solution for detail page! if it works, expand to tablet view! */
-	#maincontent {
+	.inside #maincontent {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	#map-container {
+	.inside #map-container {
 		width: 100%;
-		order: 1;
+		order: 3;
 	}
 
-	#restaurant-container {
+	.inside #restaurant-container {
 		width: 100%;
 		order: 2;
 	}
 
-	#rviews-container {
+	.inside #reviews-container {
 		width: 100%;
+		order: 1;
 	}
 
-	#footer {
+	.inside #footer {
 		width: 100%;
 	}
 
 	nav h1 a {
 		font-size: 1.2em;
+		width: 100%;
 	}
 
 }
