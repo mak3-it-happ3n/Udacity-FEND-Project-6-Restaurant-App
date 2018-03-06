@@ -1,22 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Own TODO RESPONSIVE DESIGN:
-* - create 3 breakpoints: 1) Mobile & smaller, 2)Tablet, 3) Desktop
-* - Rearrange Images: display tiles next to each other (flexbox & wrapping)
-* - Adjust Images and use different sizes and resolutions (extra Udactiy course)
-* - Grid layout????
+/* Own TODO RESPONSIVE DESIGN (new):
+* - align tiles centered on main page (currently on the left)
+* - On Detail Page:
+* - Increase Headline
+* - Display Map on full witdth as first element
+* - Display tile(s) as second element
+* - Display each review on full-width as third element
+* - display footer on full width
 */
-
-/*SAMPLE Flexbox applied: */
-/*
-header {
-max-width: 100%;
-display: flex;
-flex-wrap: wrap;
-}
-*/
-
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
@@ -147,6 +140,8 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
+
+
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
@@ -297,9 +292,8 @@ nav h1 a {
 @media screen and (max-width: 380px) {
 	/*only for testing*/
 	body {
-		background-color: green;
+		background-color: red;
 	}
-
 	/*resize buttons & font size*/
 	#neighborhoods-select, #cuisines-select {
 		font-size: 0.94em;
@@ -313,7 +307,6 @@ nav h1 a {
 	body {
 		background-color: blue;
 	}
-
 	/*resize buttons*/
 	#neighborhoods-select, #cuisines-select {
 		max-width: 40%;
@@ -326,7 +319,7 @@ nav h1 a {
 	body {
 		background-color: red;
 	}
-
+	/*display tiles next to each other*/
 	#restaurants-list {
 		display: flex;
 		flex-wrap: wrap;
