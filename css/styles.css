@@ -2,7 +2,8 @@
 /* CSS Document */
 
 /* Own TODO RESPONSIVE DESIGN (new):
-* - align tiles centered on main page (currently on the left)
+* - align tiles centered on main page (currently on the left):
+https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically
 * - On Detail Page:
 * - Increase Headline
 * - Display Map on full witdth as first element
@@ -148,6 +149,8 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+	text-align: -webkit-center;
+	justify-content: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -292,7 +295,7 @@ nav h1 a {
 @media screen and (max-width: 380px) {
 	/*only for testing*/
 	body {
-		background-color: red;
+		background-color: green;
 	}
 	/*resize buttons & font size*/
 	#neighborhoods-select, #cuisines-select {
