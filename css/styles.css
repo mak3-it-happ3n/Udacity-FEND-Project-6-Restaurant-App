@@ -374,3 +374,51 @@ nav h1 a {
 		flex-wrap: wrap;
 	}
 }
+
+/* ====================== Details View ====================== */
+
+/* WHY is the viewport not correctly caught on details view??*/
+/* Maybe work with body.inside instead?!*/
+
+/*
+body.inside #maincontent {
+	background-color: yellow;
+	color: green;
+}
+*/
+
+#maincontent {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#map-container {
+	width: 100%;
+	height: 10%;
+	order: 1;
+	position: absolute;
+}
+
+#restaurant-container {
+	width: 100%;
+	order: 2;
+	margin-top: 45%;
+}
+
+#reviews-container {
+	margin-top: 500px;
+	width: 100%;
+	order: 3;
+}
+
+#footer {
+	width: 100%;
+}
+
+nav h1 a {
+	font-size: 1.2em;
+	width: 100%;
+}
+
+}
