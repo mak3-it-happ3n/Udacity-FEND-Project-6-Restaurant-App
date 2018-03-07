@@ -12,7 +12,9 @@
 */
 
 /* TODO: a11y:
-* - include descriptive alt-attributes for all images
+* - change "view details" links into buttons
+* - change focus order 1. headline, 2. map / satelite 3. zoom in/out, 4. All neighborhoods, 5. All Cuisines, 6. View Details (exclude the rest or move it to the end)
+* - include descriptive alt-attributes for all images (see restaurant_infos.js line 61)
 * - add screen-reader-only attributes where appropriate to add useful additional text (maybe for maps?)
 * - use semantic markup whee possible
 * - use aria attributes when semantic markup is not feasable
