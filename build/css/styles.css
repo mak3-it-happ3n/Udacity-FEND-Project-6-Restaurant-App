@@ -1,16 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Own TODO RESPONSIVE DESIGN (new):
-* - On Detail Page:
-* - Increase Headline
-* - Display Map on full witdth as first element
-* - Display tile(s) as second element
-* - Display each review on full-width as third element
-* - display footer on full width
-* - ALL POTENTIALLY SOLVED!
-*/
-
 /* TODO: a11y:
 * - change "view details" links into buttons
 * - change focus order 1. headline, 2. map / satelite 3. zoom in/out, 4. All neighborhoods, 5. All Cuisines, 6. View Details (exclude the rest or move it to the end)
@@ -212,50 +202,6 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
-
-.inside #maincontent {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
-  right: 0;
-  top: 80px;
-  width: 10%;
-
-	width: 100%;
-	height: 10%;
-	order: 1;
-	position: absolute;
-}
-
-.indside #restaurant-container {
-	width: 100%;
-	order: 2;
-	margin-top: 45%;
-}
-
-.inside #reviews-container {
-	margin-top: 500px;
-	width: 100%;
-	order: 3;
-}
-
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
-  width: 100%;
-}
-.inside #footer {
-  bottom: 0;
-  position: absolute;
-
-  width: 100%;
-}
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
@@ -288,7 +234,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 110px 40px 30px;
   width: 50%;
 }
 #reviews-container {
@@ -323,59 +269,20 @@ nav h1 a {
   color: #666;
 }
 
+
 /* ====================== Breakpoints ====================== */
 
 /*normal mobile screen*/
 @media screen and (max-width: 380px) {
-	/*only for testing*/
-	body.inside {
-		background-color: green;
-	}
 	/*resize buttons & font size*/
 	#neighborhoods-select, #cuisines-select {
 		font-size: 0.94em;
 		max-width: 40%;
 	}
-
-/* pontential solution for detail page! if it works, expand to tablet view! */
-	.inside #maincontent {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.inside #map-container {
-		width: 100%;
-		order: 3;
-	}
-
-	.inside #restaurant-container {
-		width: 100%;
-		order: 2;
-	}
-
-	.inside #reviews-container {
-		width: 100%;
-		order: 1;
-	}
-
-	.inside #footer {
-		width: 100%;
-	}
-
-	nav h1 a {
-		font-size: 1.2em;
-		width: 100%;
-	}
-
 }
 
 /*large mobile & normal tablet screen*/
 @media screen and (min-width: 381px) and (max-width: 770px) {
-	/*only for testing*/
-	body {
-		background-color: blue;
-	}
 	/*resize buttons*/
 	#neighborhoods-select, #cuisines-select {
 		max-width: 40%;
@@ -390,10 +297,6 @@ nav h1 a {
 
 /*large tablet & desktop screen*/
 @media screen and (min-width: 771px) {
-	/*only for testing*/
-	body {
-		background-color: red;
-	}
 	/*display tiles next to each other*/
 	#restaurants-list {
 		display: flex;
@@ -425,15 +328,13 @@ body.inside #maincontent {
 	order: 1;
 	position: absolute;
 }
-
-.inside #restaurant-container {
+ #restaurant-container {
 	width: 100%;
 	order: 2;
-	margin-top: 45%;
+	margin-top: 13%;
 }
 
 .inside #reviews-container {
-	margin-top: 500px;
 	width: 100%;
 	order: 3;
 }
@@ -445,4 +346,11 @@ body.inside #maincontent {
 .inside nav h1 a {
 	font-size: 1.2em;
 	width: 100%;
+}
+
+.inside #breadcrumb {
+	width: 100%;
+}
+.inside #breadcrumb li {
+	font-size: 3em;
 }
