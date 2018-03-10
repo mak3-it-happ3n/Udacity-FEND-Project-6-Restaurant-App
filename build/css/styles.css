@@ -345,3 +345,7 @@ body.inside #maincontent {
 .inside #breadcrumb li {
 	font-size: 1.2em;
 }
+
+.inside #restaurant-hours td {
+	font-size: 3em;
+}
