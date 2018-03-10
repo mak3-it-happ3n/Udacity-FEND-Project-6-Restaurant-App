@@ -278,11 +278,11 @@ nav h1 a {
 	#neighborhoods-select, #cuisines-select {
 		max-width: 40%;
 	}
-
+/*
 	nav h1 a {
 		font-size: 1.3em;
 	}
-
+*/
 
 }
 
@@ -343,5 +343,5 @@ body.inside #maincontent {
 	width: 100%;
 }
 .inside #breadcrumb li {
-	font-size: 3em;
+	font-size: 1.2em;
 }
