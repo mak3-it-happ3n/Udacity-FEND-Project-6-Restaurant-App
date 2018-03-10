@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.2/
 self.__precacheManifest = [
   {
     "url": "css/styles.css",
-    "revision": "19bf1a65d698253afede8ab896058ec3"
+    "revision": "f410a03f3c3684d52776eccf5717f40b"
   },
   {
     "url": "data/restaurants.json",
-    "revision": "4ba9d8355cee522235582ae2442e1c71"
+    "revision": "500a3defff288a163f63f80b48025716"
   },
   {
     "url": "img/1.jpg",
@@ -69,27 +69,23 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "7ac2783676638c7846f88df361a3256c"
+    "revision": "e920c1d0aa99576aafa3e47e745374d5"
   },
   {
     "url": "js/dbhelper.js",
-    "revision": "a9e9f51995fa67698a7f0d3cdc7eec71"
+    "revision": "0a5919955b520f1c6d55648c747f68cf"
   },
   {
     "url": "js/main.js",
-    "revision": "ff3fca18d778da7d033184c2d4e45f1e"
+    "revision": "88059019ba0574b7b912f85dd2a8f686"
   },
   {
     "url": "js/restaurant_info.js",
-    "revision": "104758d14e887ac80e41009526c2423a"
-  },
-  {
-    "url": "README.md",
-    "revision": "90ad052e42198ea6bd09c9b0b0fab75c"
+    "revision": "359209fd9f1e84cc6830533ae21b96fa"
   },
   {
     "url": "restaurant.html",
-    "revision": "62bfd69f0fc4ea3e4eb81b40a8af53e6"
+    "revision": "909d965596d154fa5cd9d97535a2cdb3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
