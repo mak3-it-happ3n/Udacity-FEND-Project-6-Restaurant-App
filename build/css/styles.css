@@ -319,6 +319,7 @@ body.inside #maincontent {
 	order: 1;
 	position: absolute;
 }
+
  #restaurant-container {
 	width: 100%;
 	order: 2;
@@ -348,4 +349,8 @@ body.inside #maincontent {
 
 .inside #restaurant-hours td {
 	font-size: 3em;
+}
+
+.inside #restaurant-name {
+	margin-top: 35%;
 }
