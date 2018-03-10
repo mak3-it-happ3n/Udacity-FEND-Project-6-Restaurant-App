@@ -64,6 +64,16 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script>
   <!-- End scripts -->
 
+  <!-- register service worker-->
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+
+
 </body>
 
 </html>
